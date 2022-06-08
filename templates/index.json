@@ -6,35 +6,16 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "#BLACKDEVSROCK",
+            "heading": "",
             "heading_size": "h0"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "Where fashion meets technology. You are now connected to BlackDevsRock.",
-            "text_style": "body"
-          }
-        },
-        "button": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Shop all",
-            "button_link_1": "shopify:\/\/collections\/all",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
           }
         }
       },
       "block_order": [
-        "heading",
-        "text",
-        "button"
+        "heading"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/BlackDevsRock_Ad_1.jpg",
         "image_overlay_opacity": 40,
         "image_height": "large",
         "adapt_height_first_image": false,
@@ -60,7 +41,7 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>BlackDevsRock was founded in 2017 with a focus of connecting African Amercian developers worldwide. Take a moment to browse our products. <\/p>"
+            "text": "<p>Focusing on connecting African Amercian developers worldwide. Take a moment to browse our products. <\/p>"
           }
         }
       },
@@ -80,56 +61,25 @@
       "settings": {
         "title": "Limited Edition",
         "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
         "collection": "all",
         "products_to_show": 8,
         "columns_desktop": 4,
+        "full_width": false,
         "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
         "color_scheme": "background-1",
         "image_ratio": "adapt",
         "show_secondary_image": true,
         "show_vendor": false,
         "show_rating": false,
+        "enable_quick_add": false,
         "columns_mobile": "2",
         "swipe_on_mobile": false,
         "padding_top": 28,
-        "padding_bottom": 36
-      }
-    },
-    "collage": {
-      "type": "collage",
-      "blocks": {
-        "collection-0": {
-          "type": "collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "product": {
-          "type": "product",
-          "settings": {
-            "product": "",
-            "second_image": false
-          }
-        },
-        "collection-1": {
-          "type": "collection",
-          "settings": {
-            "collection": ""
-          }
-        }
-      },
-      "block_order": [
-        "collection-0",
-        "product",
-        "collection-1"
-      ],
-      "settings": {
-        "heading": "Multimedia collage",
-        "heading_size": "h2",
-        "desktop_layout": "left",
-        "mobile_layout": "collage",
-        "color_scheme": "background-1",
-        "padding_top": 36,
         "padding_bottom": 36
       }
     },
@@ -138,7 +88,12 @@
       "settings": {
         "heading": "",
         "heading_size": "h1",
+<<<<<<< HEAD
         "video_url": "https://www.youtube.com/watch?v=884zKaNZUl0",
+=======
+        "cover_image": "shopify:\/\/shop_images\/BlackDevsRock.jpg",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+>>>>>>> be77fa925e58f6301259c387def7cc1e5a03e2af
         "description": "",
         "full_width": false,
         "color_scheme": "background-1",
@@ -152,8 +107,14 @@
         "column1": {
           "type": "column",
           "settings": {
+<<<<<<< HEAD
             "title": "Column",
 
+=======
+            "image": "shopify:\/\/shop_images\/Elias.jpg",
+            "title": "Jaii Elias Ari",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.<\/p>",
+>>>>>>> be77fa925e58f6301259c387def7cc1e5a03e2af
             "link_label": "",
             "link": ""
           }
@@ -161,8 +122,9 @@
         "column2": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/GroupOfFloppy2.png",
+            "title": "GLDNF",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -170,8 +132,9 @@
         "column3": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/ohfro_toy.jpg",
             "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -204,7 +167,6 @@
     "image_banner",
     "rich_text",
     "featured_collection",
-    "collage",
     "video",
     "multicolumn"
   ]
