@@ -59,7 +59,7 @@
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
-        "title": "Limited Edition",
+        "title": "Featured products",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
@@ -88,76 +88,11 @@
       "settings": {
         "heading": "",
         "heading_size": "h1",
-<<<<<<< HEAD
-        "video_url": "https://www.youtube.com/watch?v=884zKaNZUl0",
-=======
         "cover_image": "shopify:\/\/shop_images\/BlackDevsRock.jpg",
         "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
->>>>>>> be77fa925e58f6301259c387def7cc1e5a03e2af
         "description": "",
         "full_width": false,
         "color_scheme": "background-1",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "multicolumn": {
-      "type": "multicolumn",
-      "blocks": {
-        "column1": {
-          "type": "column",
-          "settings": {
-<<<<<<< HEAD
-            "title": "Column",
-
-=======
-            "image": "shopify:\/\/shop_images\/Elias.jpg",
-            "title": "Jaii Elias Ari",
-            "text": "<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.<\/p>",
->>>>>>> be77fa925e58f6301259c387def7cc1e5a03e2af
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column2": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/GroupOfFloppy2.png",
-            "title": "GLDNF",
-            "text": "<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column3": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/ohfro_toy.jpg",
-            "title": "Column",
-            "text": "<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column1",
-        "column2",
-        "column3"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "third",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "center",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "background-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -167,7 +102,6 @@
     "image_banner",
     "rich_text",
     "featured_collection",
-    "video",
-    "multicolumn"
+    "video"
   ]
 }
